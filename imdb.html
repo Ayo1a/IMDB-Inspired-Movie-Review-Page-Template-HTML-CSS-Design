@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--Ex 2 Liya Hanny Avitan/Miriam Sirota  -  CSS  -->
+<html>
+  <head>
+    <title>Liya's IMDB Review</title>
+    <link href="imdb.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="Header">
+      <!-- "1" -->
+
+      <fieldset id="headerOptions">
+        <img src="IMDB-logo.jpg" height="150" width="170" id="imdblogo" />
+        <label for="searchBar"></label> <input id="searchBar" placeholder="Search movies and more..." />
+
+        <datalist id="options">
+          <option label="Keywords" value="Keywords"></option>
+          <option label="Names" value="Names"></option>
+          <option label="Titles" value="Titles"></option>
+          <option label="Tv Episodes" value="Tv Episodes"></option>
+          <option label="Companies" value="Companies"></option>
+          <option label="Names" value="Names"></option>
+          <option label="All" value="All"></option>
+        </datalist>
+
+        <input id="options" list="options" placeholder="All" />
+        <button id="search">Search</button>
+      </fieldset>
+      <button id="login">Login</button>
+    </div>
+    <div class="categories">
+      <a href="https://www.netflix.com/" id="categoriesLink"><b>Netflix</b></a>
+      <a href="https://www.primevideo.com/" id="categoriesLink"><b>AmazonPrime</b></a>
+      <a href="https://www.apple.com/tv-home/" id="categoriesLink"><b>AppleTV</b></a>
+      <a href="https://www.google.com/" id="categoriesLink"><b>Google</b></a>
+    </div>
+
+    <div class="all">
+      <div class="left">
+        <div class="title">
+          <name id="movieName">James Bond No Time To Die(2021) </name>
+          <rateNum id="rateNum">Rate: 7.5/10</rateNum>
+          <p>
+            <label for="userRatingHeader" id="user">Your Rating:</label>
+            <input type="number" id="userRate" placeholder="1-10" />
+            <p>
+              <info id="movieInfo"> Action, Adventure , 2021 , PG-13 , 2h 43m <br /></info>
+            </p>
+          </p>
+        </div>
+        <div class="media">
+          <img src = "movieCover.jpg" height="450" width="300" id="movieCover"/>
+  <video controls height="450" width="760">
+  <source src="James Bond.mp4">
+  </video >
+        </div>
+
+            <div class="moreInfo">
+      <sum id="moreDet"> More Details</sum><br />
+      <sum id="bottomText">
+        <p>
+          James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from<br />
+          the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with<br />
+          dangerous new technology.
+        </p>
+        <p>Director : Cary Joji Fukunaga</p>
+        <p>Writers : Neal Purvis (screenplay by) Robert Wade (screenplay by) Cary Joji Fukunaga (screenplay by)</p>
+        <p>Stars : Daniel CraigAna de ArmasRami Malek</p>
+        <button id="addToWish">Add To WatchList</button>
+      </sum>
+    </div>
+      </div>
+
+      <div class="right">
+	
+    <h1><b><p> More to explore :</p></b></h1>
+    <a href="https://www.imdb.com/video/vi3482698521?ref_=tt_eds_center-3_fanq_bond_cta&listId=ls025720609" id="asideLink" >
+	<b>Shaken or Stirred?</b></a></br>
+	<label id="asideData"> - No Time to Die stars Daniel Craig and Rami Malek answer your fan questions.</label>
+    </p><br>
+    <a href="https://www.imdb.com/list/ls502697513/mediaviewer/rm516748801/" id="asideLink" ><b>Top 10 James Bond Films by IMDb User Rating</b></a></br>
+    <label id="asideData"> - ART ART ART ! lets see what they got to say.</label>
+    <p><br>
+    <a href="https://www.imdb.com/search/title/?genres=thriller&explore=title_type,genres&ref_=tt_ov_inf" id="asideLink" ><b>Trailers Links</b></a></br>
+	<label id="asideData"> - Top 50 Thriller Movies and TV Shows.</label>
+	 <p><br>
+	<a href="https://www.imdb.com/lists/tt2382320/?ref_=tt_rls_sm" id="asideLink" ><b>Related</b></a></br>
+<label id="asideData"> - Lists Related to No Time to Die.</label>   
+ 
+ 
+
+      </div>
+    </div>
+
+
+
+   <footer>Made By Liya Hanny Avitan ID:200485159</footer> 
+  </body>
+</html>
